@@ -1,1 +1,4 @@
-
+##7.Reverse Interger
+##cmd(a,b)是比较a和b大小的符号函数，返回值为1 0 -1
+#3int(str(a number))可以对一个数值化作字符串进行编辑然后再回归数值的类型 当开头是0时 str到int会自动略去首字母
+##Extended Slices list[start:end:step] step负数表示逆向选取
