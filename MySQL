@@ -1,1 +1,21 @@
+##WITH:
+cte:common tables expression
+1. with cte_name1 as (select xx from)
+        cte_name2 as (select xx from)
+2. cte有独一无二的recursive cte 特性
+
+##recursive cte
+分为anchor 和 recursive 两个部分 recursive里 self reference --> cte
+recursive里第一次用的的cte是anchor
+union all
+
+
+##UNION/UNION ALL
+前者会去掉重复行 后者不会
+
+##limit 
+在group by 之后不能用limit 1 去 选择 每个group里第一个case 否则会只返回第一个group的第一个case
+
+
+
 
